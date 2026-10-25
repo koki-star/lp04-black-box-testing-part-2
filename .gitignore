@@ -1,0 +1,17 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local environments and generated files
+.venv/
+venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+.DS_Store
+dist/
+build/
+coverage/
